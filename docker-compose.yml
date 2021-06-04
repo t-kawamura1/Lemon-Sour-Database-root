@@ -2,6 +2,8 @@ version: "3"
 services:
   api:
     build: ./api
+    environment:
+      FRONT_DOMAIN: localhost:8081
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
     volumes:
       - ./api:/app
@@ -24,6 +26,8 @@ services:
       - "3316:3306"
   front:
     build: ./front
+    environment:
+      VUE_APP_API_ENDPOINT: http://localhost:3000
     volumes:
       - ./front:/app
     ports:

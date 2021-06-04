@@ -19,5 +19,11 @@ RUN apt-get update \
   --no-install-recommends \
   && rm -rf /var/lib/apt/lists/*
 
-COPY package.json .
+COPY package*.json ./
 RUN npm install
+
+COPY . ./
+
+RUN npm run build
+
+EXPOSE 8081

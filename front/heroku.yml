@@ -1,0 +1,10 @@
+setup:
+  config:
+    NODE_ENV: production
+    NPM_CONFIG_PRODUCTION: false
+    VUE_APP_API_ENDPOINT: https://lsdb-api-v1.herokuapp.com
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: npm run start
