@@ -23,7 +23,7 @@ services:
       PGTZ: UTC
       POSTGRES_PASSWORD: password
     ports:
-      - "3316:3306"
+      - "5432:5432"
   front:
     build: ./front
     environment:
