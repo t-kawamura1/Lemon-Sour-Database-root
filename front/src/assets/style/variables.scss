@@ -1,0 +1,49 @@
+// ---------key color-----------
+$aged-yellow: #f39800;
+$base-yellow: #fff462;
+$little-deep-yellow: #ffdc00;
+
+// base-yellowから明度のみ変化
+$darkest-yellow: #333113;
+$second-dark-yellow: #666227;
+$third-dark-yellow: #99933a;
+$fourth-dark-yellow:#ccc44e;
+
+// base-yellowから彩度のみ変化
+$lightest-yellow: #fffccc;
+
+$base-yellow-complementary: #616bff;
+$font-color-bg-white: #404040;
+$error-red: #ff616b;
+$dark-green: #0c5f41;
+$light-green: #8dc21f;
+$light-pastel-blue: #f4f9ff;
+$second-light-pastel-blue: #e0efff;
+$twitter: #00acee;
+$calendar-green: #00B06B;
+$calendar-yellow: #F2E700;
+$calendar-red: #ff3333;
+$gold: gold;
+$silver: silver;
+$bronze: #ac6b25;
+// -----------------------------
+
+// ------contents layout--------
+$sidebar-width: 240px;
+$header-height: 60px;
+$footer-height: 90px;
+$sour-column-width: 360px;
+// -----------------------------
+
+// ----------z-index------------
+$z-overlay: 20;
+$z-modal: 21;
+$z-sidebar: 10;
+$z-header: 10;
+$z-notice-pc: 11;
+$z-notice-sp: 9;
+$z-footer: 10;
+$z-user-image-edit-input-label: 6;
+$z-user-image-edit-icon: 5;
+$z-user-image-edit-user-image: 4;
+// -----------------------------
