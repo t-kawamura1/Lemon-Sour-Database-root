@@ -1,1 +1,4 @@
 .DS_Store
+/.env
+/front/.env.local
+/front/.env.production
